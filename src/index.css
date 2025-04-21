@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/**** Google font ******/
+/* lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/* Noto sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Nunito sans */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/**** Google font ******/
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -65,4 +77,18 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+
+
+/* tarek css */
+.footer-common-text{
+  color:  #F3F3F3;
+font-family: Lexend;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.2px;
+margin-bottom: 8px;
 }
